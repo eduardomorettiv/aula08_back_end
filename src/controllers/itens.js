@@ -1,4 +1,4 @@
-const itens = require("../dados/itens.json")
+const itens = require("../../dados/itens.json")
 
 const criar = (req, res) => {
     const dados = req.body

@@ -8,8 +8,8 @@ const criar = (req, res) => {
 }
 
 const calcTotais = (req, res) => {
-    // 1. Guarda o resultado do reduce na variável 'total'
-    const total = pedidos.reduce((acumulador, valorAtual) => acumulador + item.valor, 0);
+    
+    const total = pedidos.reduce((acumulador, valorAtual) => acumulador + item.valor, 0)
     
     console.log(`Total: R$ ${total.toFixed(2)}`);
 
