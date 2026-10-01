@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router()
-const produtos = require("../dados/produtos.json")
+const produtos = require("../dados/itens.json")
 
 const rotaInicial = (req, res) => {
     res.json(produtos)
